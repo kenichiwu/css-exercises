@@ -1,3 +1,7 @@
+# Completed kenichiwu 4/2/25
+Comments: When I saw the font size on its own selector, I was amazed. 
+I really didnt think about that and added everything into 1 selector.
+
 # Class and ID Selectors
 Knowing how to add class and ID attributes to HTML elements, as well as use their respective selectors, is invaluable. It's important to practice using them.
 
