@@ -1,0 +1,42 @@
+/* styles.css */ 
+/* Man, This is getting to be an information overload, Im pushing through though. 
+Oh man, Earlier while adding background color, I changed one color by hovering over the code. 
+When I opened the html to look at it, the html wasnt changing or anything. Had to go back and review what I was
+doing that made it not visible. Found out it was the rgb adding too many colors and closing brackets or whatever
+you call it and deleted it. I was able to get the site up and the colors finally popped up.
+*/
+/* voiding code but keeping it for reference.
+div {
+    background-color: rgb(255, 0, 217);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+p {
+    background-color: rgb(255, 0, 217);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+/* I added the code above to see if they would work, and they didnt really work. So this time Ill add the class and see if that works */
+
+.OddNumberedElements {
+    background-color: rgb(255, 0, 217);
+    font-family: Verdana, "Dejavu Sans", sans-serif;
+}
+
+.OddNumberedElements.FontSize {
+    background-color: rgb(255, 0, 217);
+    font-family: Verdana, "Dejavu Sans", sans-serif;
+    font-size: 24px;
+}
+
+#ImUnique1 {
+    color: rgb(0, 0, 255);
+    font-size: 36px;
+    
+}
+
+#ImUnique2 {
+    background-color: rgba(0, 255, 0, 0.50);
+    font-size: 24px;
+    font-weight: bold;
+}
