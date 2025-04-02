@@ -1,0 +1,30 @@
+/* Stylesheet */
+
+/* OMG, I FORGOT THE . PERIOD before the class or the Unique ID. I was wondering why they werent working!
+Now I know. Took me about 20 minutes trying to figure what I did wrong. While also watching anime.
+button {
+    color: red;
+} */
+
+.fontclass {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+/* #firstelement {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+/* #secondelement {
+    background-color: rgb(255, 255, 0);
+}  I didnt group the selectors, so this time I was able to with the coding below. */
+
+.fontclass#secondelement {
+    background-color: rgb(255, 255, 0);
+}
+
+.fontclass#firstelement {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
