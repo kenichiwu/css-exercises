@@ -1,0 +1,24 @@
+/* From what I am reading, chaining is when there is no spaces something like
+.apple.banana is a chain
+.apple .banana is a decendant combinator
+very interesting lets go. */
+
+/*
+.container .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+*/
+
+div .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Had the idea of doing div and .text I had thought it was similar to chaining, but it was more of a descendant combinator
+putting the space inbetween and it works. Coloring looks alittle off and made it difficult to tell.
+Ill have to get use to not looking at the color for errors. */
