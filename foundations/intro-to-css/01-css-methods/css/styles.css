@@ -1,0 +1,14 @@
+/* styles.css */
+/* Earlier, I used https for cloning and when I was pushing to the repo it wasnt working.
+Had to delete with rm -rf css-exercise and was able to get rid of the folder.
+Created a new clone with SSH or code and lets see if can push my work. 
+Also earlier than that, I was using the external method for p and needed to put that internally into html. Lets
+Go! */
+
+div {
+    color: white;
+    background-color: red;
+    font-size: 32px;
+    font-weight: 1000;
+    text-align: center;
+}
