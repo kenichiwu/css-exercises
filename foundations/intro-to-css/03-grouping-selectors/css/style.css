@@ -4,12 +4,25 @@
 Now I know. Took me about 20 minutes trying to figure what I did wrong. While also watching anime.
 button {
     color: red;
-} */
+} Looking at the code below, its just adding into the class, so you dont have to keep writing the code multiple times
+ */
 
-.fontclass {
+.fontclass,
+.fontclassGlamouredUp {
     font-size: 28px;
     font-family: Helvetica, "Times New Roman", sans-serif;
 }
+
+.fontclass {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.fontclassGlamouredUp {
+    background-color: rgb(255, 255, 0);
+}
+
+
 
 /* #firstelement {
     background-color: rgb(0, 0, 0);
@@ -20,11 +33,13 @@ button {
     background-color: rgb(255, 255, 0);
 }  I didnt group the selectors, so this time I was able to with the coding below. */
 
-.fontclass#secondelement {
+/* .fontclass#secondelement {
     background-color: rgb(255, 255, 0);
 }
 
 .fontclass#firstelement {
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
-}
+} SO THIS WASNT WHAT WAS STATED. IT WAS UNIQUE CLASSES, NOT IDs. So I was wrong on this part...
+ Sucks I went int oslutions, I will try this again. */
+
